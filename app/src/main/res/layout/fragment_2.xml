@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/changeColor2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A8CAE4"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Singapore is among the 20 smallest countries in the world"
+            android:textColor="#100F0F" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Singapore is one of only three surviving city-states in the world"
+            android:textColor="#100F0F" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Singapore's national athem is in micro-text on the back of their $1000 note"
+            android:textColor="#100F0F" />
+
+        <Button
+            android:id="@+id/btnChange2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#878383"
+            android:text="Change Color" />
+    </LinearLayout>
+
+</FrameLayout>
